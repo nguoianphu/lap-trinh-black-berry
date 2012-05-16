@@ -1,0 +1,10 @@
+MIDlet-Name: nap01 User_Interface
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Jar-URL: nap01 User_Interface.jar
+MIDlet-Jar-Size: 0
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: nap01 UI,img/vietnam-icon-61.png,
+RIM-MIDlet-Flags-1: 0
+
