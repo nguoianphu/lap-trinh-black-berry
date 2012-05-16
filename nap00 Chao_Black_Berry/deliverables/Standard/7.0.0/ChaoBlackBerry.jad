@@ -1,0 +1,16 @@
+MIDlet-Name: nap00 Chao_Black_Berry
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer
+MIDlet-Jar-URL: nap00 Chao_Black_Berry.jar
+MIDlet-Jar-Size: 16131
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: ChaoBB,img/vietnam-icon-61.png,
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: ChaoBlackBerry.cod
+RIM-COD-Size: 13984
+RIM-COD-Creation-Time: 1336045529
+RIM-COD-Module-Name: ChaoBlackBerry
+RIM-COD-Module-Dependencies: net_rim_cldc
+RIM-COD-SHA1: c2 16 76 08 f2 0a 96 16 58 37 03 b4 b0 ea 7d 14 b7 03 d4 01
