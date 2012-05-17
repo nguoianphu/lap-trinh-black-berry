@@ -6,6 +6,7 @@ import net.rim.device.api.ui.FieldChangeListener;
 import net.rim.device.api.ui.component.BitmapField;
 import net.rim.device.api.ui.component.ButtonField;
 import net.rim.device.api.ui.component.CheckboxField;
+import net.rim.device.api.ui.component.Dialog;
 import net.rim.device.api.ui.component.EditField;
 import net.rim.device.api.ui.component.ObjectChoiceField;
 import net.rim.device.api.ui.component.PasswordEditField;
@@ -80,15 +81,21 @@ public final class UIadvancedScreen extends MainScreen implements FieldChangeLis
         
         // event clear
         btnClear.setChangeListener(this);
+        btnLogin.setChangeListener(this);
         
         
     }
 
- // clear text event
+    // clear text event
 	public void fieldChanged(Field field, int context) {
 		// TODO Auto-generated method stub
-		if (field == btnClear)
+		if (field == btnClear){
 		clearText();
+		}
+		else if (field == btnLogin) { 
+            login(); 
+			
+		}
 	}
 	
 	// clear text function
@@ -96,4 +103,21 @@ public final class UIadvancedScreen extends MainScreen implements FieldChangeLis
 		username.setText("");
 		password.setText("");
 	}
-}
+	
+	// login success
+	public void login() {
+		if (username.getTextLength() == 0 || password.getTextLength() == 0) { 
+            Dialog.alert("You must enter a username and password"); 
+        } 
+        else { 
+            String user = username.getText();
+            String selectedDomain =  
+              (String)domain.getChoice(domain.getSelectedIndex()); 
+        UIadvancedScreenSuccess loginSuccessScreen =  
+                new UIadvancedScreenSuccess(user, selectedDomain); 
+        UIadvancedApp.getUiApplication().pushScreen(loginSuccessScreen); 
+        } 
+		
+	}
+	
+}// end class
