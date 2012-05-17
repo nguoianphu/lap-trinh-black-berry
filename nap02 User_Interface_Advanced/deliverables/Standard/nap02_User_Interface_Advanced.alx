@@ -1,0 +1,31 @@
+<loader version="1.0">
+	<application id="nap02_User_Interface_Advanced">
+		<name >
+			User Interface Advanced
+		</name>
+		<description >
+			User Interface Advanced
+		</description>
+		<version >
+			1.0.0
+		</version>
+		<vendor >
+			BlackBerry Developer hungtuan102
+		</vendor>
+		<copyright >
+			Copyright (c) 2012 BlackBerry Developer hungtuan102
+		</copyright>
+		<fileset Java="1.54" _blackberryVersion="[7.1.0)">
+			<directory >
+				7.1.0
+			</directory>
+			<files >
+				nap02_User_Interface_Advanced.cod
+
+			</files>
+
+		</fileset>
+
+	</application>
+
+</loader>

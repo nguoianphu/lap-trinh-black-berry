@@ -1,0 +1,17 @@
+MIDlet-Name: nap02 User_Interface_Advanced
+MIDlet-Version: 1.0.0
+MIDlet-Vendor: BlackBerry Developer hungtuan102
+MIDlet-Jar-URL: nap02 User_Interface_Advanced.jar
+MIDlet-Jar-Size: 22475
+MIDlet-Description: User Interface Advanced
+MicroEdition-Profile: MIDP-2.0
+MicroEdition-Configuration: CLDC-1.1
+MIDlet-1: User Interface Advanced,img/iconvn.png,
+RIM-MIDlet-Flags-1: 0
+Manifest-Version: 1.0
+RIM-COD-URL: nap02_User_Interface_Advanced.cod
+RIM-COD-Size: 17392
+RIM-COD-Creation-Time: 1337085189
+RIM-COD-Module-Name: nap02_User_Interface_Advanced
+RIM-COD-Module-Dependencies: net_rim_cldc
+RIM-COD-SHA1: ed b6 79 20 ec ca 8e 0e 74 c7 06 4a b5 df ba e2 e5 5c f4 4a
