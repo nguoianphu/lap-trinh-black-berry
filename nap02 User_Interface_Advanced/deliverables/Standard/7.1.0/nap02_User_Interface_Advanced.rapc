@@ -6,6 +6,6 @@ MIDlet-Jar-URL: nap02 User_Interface_Advanced.jar
 MIDlet-Jar-Size: 0
 MicroEdition-Profile: MIDP-2.0
 MicroEdition-Configuration: CLDC-1.1
-MIDlet-1: User Interface Advanced,img/iconvn.png,
+MIDlet-1: User Interface,img/iconvn.png,
 RIM-MIDlet-Flags-1: 0
 

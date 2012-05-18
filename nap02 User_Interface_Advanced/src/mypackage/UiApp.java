@@ -6,7 +6,7 @@ import net.rim.device.api.ui.UiApplication;
  * This class extends the UiApplication class, providing a
  * graphical user interface.
  */
-public class UIadvancedApp extends UiApplication
+public class UiApp extends UiApplication
 {
     /**
      * Entry point for application
@@ -16,7 +16,7 @@ public class UIadvancedApp extends UiApplication
     {
         // Create a new instance of the application and make the currently
         // running thread the application's event dispatch thread.
-        UIadvancedApp theApp = new UIadvancedApp();       
+        UiApp theApp = new UiApp();       
         theApp.enterEventDispatcher();
     }
     
@@ -24,9 +24,9 @@ public class UIadvancedApp extends UiApplication
     /**
      * Creates a new MyApp object
      */
-    public UIadvancedApp()
+    public UiApp()
     {        
         // Push a screen onto the UI stack for rendering.
-        pushScreen(new UIadvancedScreen());
+        pushScreen(new UiScreen());
     }    
 }
