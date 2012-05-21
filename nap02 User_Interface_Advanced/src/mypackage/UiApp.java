@@ -19,7 +19,6 @@ public class UiApp extends UiApplication
         UiApp theApp = new UiApp();       
         theApp.enterEventDispatcher();
     }
-    
 
     /**
      * Creates a new MyApp object

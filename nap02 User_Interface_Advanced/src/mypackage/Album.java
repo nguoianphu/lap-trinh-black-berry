@@ -22,21 +22,45 @@ public class Album extends MainScreen{
         { 	
         	int imgIndex = i+1;
         	images[i] = resizeImage(Bitmap.getBitmapResource("pic" + imgIndex + ".png"));
-//        	images[i] = Bitmap.getBitmapResource("pic" + imgIndex + ".png");
         	labels[i] = "Label for image " + imgIndex;
             tooltips[i] = "Tooltip for image " + imgIndex;
             entries[i] = new ScrollEntry(images[i], labels[i],tooltips[i]);
         }
+		
+		/*
+		Bitmap[] images = new Bitmap[3];
+        String[] labels = new String[3];
+        String[] tooltips = new String[3];
+        
+        images[0] = resizeImage(Bitmap.getBitmapResource("pic1.png"));
+        labels[0] = "Label for image 1";
+        tooltips[0] = "Tooltip for image 1";
 
-        add(new PictureScroll(entries));        
-    
+        images[1] = resizeImage(Bitmap.getBitmapResource("pic2.png"));
+        labels[1] = "Label for image 2";
+        tooltips[1] = "Tooltip for image 2";
+
+        images[2] = resizeImage(Bitmap.getBitmapResource("pic3.png"));
+        labels[2] = "Label for image 3";
+        tooltips[2] = "Tooltip for image 3";
+
+        ScrollEntry[] entries = new ScrollEntry[3];
+        
+        for (int i = 0; i < entries.length; i++) 
+        { 
+             entries[i] = new ScrollEntry(images[i], labels[i],tooltips[i]);
+        }
+        */
+		
+        // final step - add entries to picturecroll
+        add(new PictureScroll(entries));
         
 
 	}
 	private class PictureScroll extends PictureScrollField {
 		private final ScrollEntry[] _entries;
 		PictureScroll(ScrollEntry[] entries) {
-			super(196,327);
+			super(150,175);
 			_entries = entries;
 			this.setData(entries, 0);
 			this.setHighlightStyle(HighlightStyle.ILLUMINATE_WITH_SHRINK_LENS);

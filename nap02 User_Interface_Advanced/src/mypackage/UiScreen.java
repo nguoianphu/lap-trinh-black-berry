@@ -5,7 +5,6 @@ import net.rim.device.api.command.CommandHandler;
 import net.rim.device.api.command.ReadOnlyCommandMetadata;
 import net.rim.device.api.system.Bitmap;
 import net.rim.device.api.ui.Field;
-import net.rim.device.api.ui.FieldChangeListener;
 import net.rim.device.api.ui.MenuItem;
 import net.rim.device.api.ui.component.BitmapField;
 import net.rim.device.api.ui.component.ButtonField;
@@ -24,8 +23,7 @@ import net.rim.device.api.util.StringProvider;
  * A class extending the MainScreen class, which provides default standard
  * behavior for BlackBerry GUI applications.
  */
-public final class UiScreen extends MainScreen implements FieldChangeListener
-{
+public final class UiScreen extends MainScreen {
     /**
      * Creates a new MyScreen object
      */
@@ -86,27 +84,15 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         btnLogin.setCommand(new Command(loginHandler));
         
         
-    }
+    }// end contractor
 
-    // clear text event
-	public void fieldChanged(Field field, int context) {
-		
-		if (field == btnClear){
-		clearText();
-		}
-		else if (field == btnLogin) { 
-            login(); 
-			
-		}
-	}
-	
 	// clear text function
 	public void clearText(){
 		username.setText("");
 		password.setText("");
 	}
 	
-	// login success
+	// login event
 	public void login() {
 		if (username.getTextLength() == 0 || password.getTextLength() == 0) { 
             Dialog.alert("You must enter a username and password"); 
@@ -117,7 +103,7 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
 		
 	}
 	
-	// Menu methods
+	// Menus
 	protected void makeMenu(Menu menu, int instance) { 
         super.makeMenu(menu, instance); 
         
@@ -130,7 +116,7 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         menu.add(clearMenu); 
     } 
 	
-	// class LoginCommandHandler
+	// class CommandHandlers
 	class LoginCommandHandler extends CommandHandler{
 		public void execute(ReadOnlyCommandMetadata metedata, Object context){
 			login();
@@ -142,4 +128,4 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
 		}
 	}
 	
-}// end class UIadvancedScreen
+}// end class UiScreen
