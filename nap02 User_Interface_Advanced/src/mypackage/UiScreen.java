@@ -45,7 +45,7 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
     public UiScreen()
     {     
     	// add a logo
-        Bitmap logo = Bitmap.getBitmapResource("píc.png");
+        Bitmap logo = Bitmap.getBitmapResource("pic1.png");
         BitmapField bmpField = new BitmapField(logo, Field.FIELD_HCENTER);
         add(bmpField);
        
@@ -63,14 +63,14 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         add(domain);
         
         // Remember pass
-        CheckboxField chkRemember = new CheckboxField("Remember password", false);
+        CheckboxField chkRemember = new CheckboxField("Remember password", true);
         add(chkRemember);
         
         // --------------
         add(new SeparatorField());
         
        
-        // Button detail
+        // Button details
         btnClear = new ButtonField("Clear", ButtonField.CONSUME_CLICK);
         btnLogin = new ButtonField("Login", ButtonField.CONSUME_CLICK );
        
