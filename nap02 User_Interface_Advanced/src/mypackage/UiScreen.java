@@ -41,18 +41,19 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
     ButtonField btnLogin;
     // loginHandler
     LoginCommandHandler loginHandler = new LoginCommandHandler();
+    ClearCommandHandler clearHandler = new ClearCommandHandler();
 	
     public UiScreen()
     {     
     	// add a logo
-        Bitmap logo = Bitmap.getBitmapResource("pic1.png");
+        Bitmap logo = Bitmap.getBitmapResource("iconvn.png");
         BitmapField bmpField = new BitmapField(logo, Field.FIELD_HCENTER);
         add(bmpField);
        
         // --------------
         add(new SeparatorField());
         
-        // username & password
+        // user name & password
         username = new EditField("Username: ", "");
         password = new PasswordEditField("Password: ", "");
         add(username);
@@ -70,7 +71,7 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         add(new SeparatorField());
         
        
-        // Button details
+        // Button detail
         btnClear = new ButtonField("Clear", ButtonField.CONSUME_CLICK);
         btnLogin = new ButtonField("Login", ButtonField.CONSUME_CLICK );
        
@@ -81,8 +82,7 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         buttonManager.add(btnLogin);
         
         // event clear
-        btnClear.setChangeListener(this);
-//        btnLogin.setChangeListener(this);
+        btnClear.setCommand(new Command(clearHandler));
         btnLogin.setCommand(new Command(loginHandler));
         
         
@@ -125,17 +125,20 @@ public final class UiScreen extends MainScreen implements FieldChangeListener
         loginMenu.setCommand(new Command(loginHandler)); 
         menu.add(loginMenu); 
         
-        menu.add(new MenuItem(new StringProvider("Clear"), 10, 20) { 
-            public void run() { 
-                clearText(); 
-            } 
-        }); 
+        MenuItem clearMenu = new MenuItem(new StringProvider("Clear"), 20, 10);
+        clearMenu.setCommand(new Command(clearHandler)); 
+        menu.add(clearMenu); 
     } 
 	
 	// class LoginCommandHandler
 	class LoginCommandHandler extends CommandHandler{
 		public void execute(ReadOnlyCommandMetadata metedata, Object context){
 			login();
+		}
+	}
+	class ClearCommandHandler extends CommandHandler{
+		public void execute(ReadOnlyCommandMetadata metedata, Object context){
+			clearText();
 		}
 	}
 	
