@@ -1,0 +1,380 @@
+16:03:18,274 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+16:03:18,368 DEBUG [C] Property change listener is enabled.
+16:03:18,415 TRACE [R] ContextManager startingneed update: true
+16:03:18,415 DEBUG [T] Starting Search for CPs
+16:03:18,415 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+16:03:18,415 DEBUG [T] CP named BlackBerry Java SDK version 7.1.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components
+16:03:18,446 DEBUG [B] qualifier: 0
+16:03:19,618 DEBUG [K] VM: *ADDED* [1337677399602$C:\Program Files\Java\jdk1.7.0_04]
+16:03:19,696 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.1.0
+16:03:19,712 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components]
+16:03:19,712 TRACE [C] openStartupOnEclpseFirstStart was changed from "false" to "false"
+16:03:19,727 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+16:03:19,727 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+16:03:19,774 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+16:03:39,463 DEBUG [B] qualifier: 19
+16:04:02,043 DEBUG [C] Validating project nap03 Luu_du_lieu
+16:04:02,059 DEBUG [C] Validating project nap03 Luu_du_lieu
+16:04:02,105 DEBUG [C] Validating project nap03 Luu_du_lieu
+16:04:02,355 TRACE [R] loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+16:04:02,465 TRACE [R] finished loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+16:04:02,684 TRACE [d] ****** Get resource for nap03 Luu_du_lieu
+16:04:02,684 DEBUG [C] Validating project nap03 Luu_du_lieu
+16:04:02,699 TRACE [d] ****** Get resource for nap03 Luu_du_lieu
+16:04:02,699 TRACE [A] Entering PreprocessingBuilder build();kind=6
+16:04:02,715 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+16:04:02,777 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+16:04:02,793 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataApp.java
+16:04:02,793 TRACE [A] File DataApp.java is marked as need to be built by java compiler.
+16:04:02,793 TRACE [A] Leaving PreprocessingBuilder build()
+16:04:02,793 TRACE [B] Entering ResourcesBuilder build();kind=6
+16:04:02,793 TRACE [B] Leaving ResourcesBuilder build()
+16:04:02,887 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:04:02,981 DEBUG [R] RIA Initialization is started for E:/black/bjde/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.7/components.....
+16:04:03,652 DEBUG [R] RIA Initialization finished in : 0 ms
+16:04:03,652 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.1.0
+16:04:04,262 TRACE [d] ****** Get resource for nap03 Luu_du_lieu
+16:04:10,856 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:04:10,856 TRACE [A] Leaving PreprocessingBuilder build()
+16:04:10,856 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:04:10,856 TRACE [B] Leaving ResourcesBuilder build()
+16:04:33,576 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:04:33,576 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+16:04:33,576 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+16:04:33,576 TRACE [A] Leaving PreprocessingBuilder build()
+16:04:33,576 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:04:33,576 TRACE [B] Leaving ResourcesBuilder build()
+16:04:33,576 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:04:33,608 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:04:39,483 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:04:39,483 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+16:04:39,483 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+16:04:39,483 TRACE [A] Leaving PreprocessingBuilder build()
+16:04:39,483 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:04:39,483 TRACE [B] Leaving ResourcesBuilder build()
+16:04:39,483 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:04:39,499 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:04:52,328 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:04:52,328 TRACE [A] Leaving PreprocessingBuilder build()
+16:04:52,328 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:04:52,328 TRACE [B] Leaving ResourcesBuilder build()
+16:06:02,129 TRACE [C] cleanSimulator-BlackBerry JRE 7.1.0-ERASE_FILE_SYSTEM was changed from "false" to "true"
+16:06:02,129 TRACE [C] cleanSimulator-BlackBerry JRE 7.1.0-SDK was changed from "false" to "true"
+16:06:02,129 TRACE [C] cleanSimulator-BlackBerry JRE 7.1.0-CLEAN_SIMULATOR_DIRECTORY was changed from "false" to "true"
+16:06:02,129 TRACE [C] cleanSimulator-BlackBerry JRE 7.1.0-ERASE_NON_VOLATILE_MEMORY was changed from "false" to "true"
+16:06:02,129 TRACE [C] cleanSimulator-BlackBerry JRE 7.1.0-ERASE_REMOVABLE_MEMORY was changed from "false" to "true"
+16:06:02,285 DEBUG [M] Executing Clean Simulator - Remove Applications forE:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:06:02,301 DEBUG [M] Executing Clean Simulator - Remove files from File System forBlackBerry-SDK (9900)
+16:06:02,317 DEBUG [M] Executing Clean Simulator - Remove files from SD Card forBlackBerry-SDK (9900)
+16:06:02,348 DEBUG [M] Executing Clean Simulator - Reset Security Settings forBlackBerry-SDK (9900)
+16:07:31,166 DEBUG [D] Entering SignatureToolAction launchSignatureTool()
+16:11:41,040 DEBUG [D] Leaving SignatureToolAction launchSignatureTool()
+16:12:19,545 DEBUG [K] Packaging nap03 Luu_du_lieu
+16:12:19,576 TRACE [F] Execute rapc command: E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\bin\rapc.exe -convertpng -quiet codename=deliverables\Standard\7.1.0\nap03_Luu_du_lieu -sourceroot=E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\src;E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\res -import=E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\lib\net_rim_api.jar deliverables\Standard\7.1.0\nap03_Luu_du_lieu.rapc E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\bin; Working Directory: E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu
+16:12:19,576 TRACE [F] PATH=C:/Program Files/Java/jdk1.7.0_04/bin/../jre/bin/client;C:/Program Files/Java/jdk1.7.0_04/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_04/bin/../jre/lib/i386;C:\Program Files\Java\jdk1.7.0_04\bin;C:\qip\cli;C:\qip\jre\bin\client;C:\qip\jre\bin;C:\Sybase\DBISQL\bin;C:\Sybase\DataAccess\ADONET\dll;C:\Sybase\DataAccess\ODBC\dll;C:\Sybase\DataAccess\OLEDB\dll;C:\Sybase\UAF-2_5\bin;C:\Sybase\OCS-15_0\lib3p;C:\Sybase\OCS-15_0\dll;C:\Sybase\OCS-15_0\bin;C:\qip;C:\qip\utils;C:\qip\lib;C:\qip\named\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;C:\Program Files\TortoiseSVN\bin;D:\vitalqip_build_32\apache-ant-1.8.2\bin;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\qip\ldrm\bin;C:\Program Files\TortoiseGit\bin;%APPDATA%\Python\Scripts;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;C:\Program Files\Microsoft Visual Studio\VC98\bin;C:\cygwin\bin;E:\black\bjde;;C:\Program Files\Java\jdk1.7.0_04\bin;C:\Program Files\Java\jdk1.7.0_04\bin\bin
+16:12:22,483 TRACE [A] Project nap03 Luu_du_lieu is marked as not need RAPC.
+16:12:22,483 TRACE [L] Project nap03 Luu_du_lieu undeploy from E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:12:22,483 TRACE [L] Project nap03 Luu_du_lieu deploy --> E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:12:22,483 TRACE [L] Copy nap03_Luu_du_lieu.cod
+16:12:22,498 TRACE [L] Copy nap03_Luu_du_lieu.jar
+16:12:22,498 TRACE [L] Copy nap03_Luu_du_lieu.debug
+16:12:22,498 TRACE [L] Copy nap03_Luu_du_lieu.cso
+16:12:22,498 TRACE [L] Copy nap03_Luu_du_lieu.csl
+16:12:22,545 INFO  [K] Simulator launch command:"E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\fledge.exe" /handheld=9900 /app-param=JvmAlxConfigFile:9900.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9900 /app-param=launch=nap03 Luu_du_lieu /app="E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\Jvm.dll" /app-param=DisableRegistration
+16:12:22,545 INFO  [K] Working directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:12:22,545 INFO  [K] Launch MDS-CS:false
+16:12:22,545 INFO  [K] MDS-CS directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\MDS
+16:12:22,639 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:12:22,639 TRACE [A] Leaving PreprocessingBuilder build()
+16:12:22,639 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:12:22,639 TRACE [B] Leaving ResourcesBuilder build()
+16:15:19,372 DEBUG [D] Entering SignatureToolAction launchSignatureTool()
+16:16:53,865 DEBUG [D] Entering SignatureToolAction launchSignatureTool()
+16:16:55,255 DEBUG [D] Leaving SignatureToolAction launchSignatureTool()
+16:16:59,240 DEBUG [D] Entering SignatureToolAction launchSignatureTool()
+16:17:01,818 DEBUG [D] Leaving SignatureToolAction launchSignatureTool()
+16:17:06,084 DEBUG [D] Entering SignatureToolAction launchSignatureTool()
+16:22:18,187 DEBUG [D] Leaving SignatureToolAction launchSignatureTool()
+16:23:16,878 TRACE [E] Disposing the debug view and removing the debug listener
+16:24:38,461 DEBUG [R] RIA Initialization is started for E:/black/bjde/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components.....
+16:24:38,524 DEBUG [R] RIA Initialization finished in : 0 ms
+16:24:38,524 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.0.0
+16:25:33,842 DEBUG [B] Searching keys files...
+16:25:33,842 DEBUG [B] Entering SignatureToolAction launchSignatureTool()
+16:25:33,920 DEBUG [B] 2012-05-22 16:25:33:0920 : SignatureTool Started
+16:25:33,936 DEBUG [B] Finding Files...
+16:25:34,045 DEBUG [B] Loading Files: 0%
+16:25:34,061 DEBUG [B] Loading Files: 100%
+16:25:34,248 DEBUG [B] 2012-05-22 16:25:34:0248 : SignatureTool Stopped
+16:31:28,362 DEBUG [B] 
+16:31:28,362 DEBUG [B] Signing of files is complete.:3/3
+16:31:28,362 DEBUG [B] 
+16:31:28,362 DEBUG [B] 1 required signatures successfully applied.
+16:31:28,362 DEBUG [B] 0 required signatures failed.
+16:31:28,362 DEBUG [B] 2 optional signatures successfully applied.
+16:31:28,362 DEBUG [B] 0 optional signatures failed.
+16:31:28,362 DEBUG [B] 
+16:31:45,473 DEBUG [B] Leaving SignatureToolAction launchSignatureTool()
+16:31:45,504 TRACE [A] Project nap03 Luu_du_lieu folder copy: deliverables/Standard/7.1.0 --> deliverables/Web/7.1.0
+16:31:45,504 TRACE [L] Copy nap03_Luu_du_lieu.cod
+16:31:45,504 TRACE [L] Copy nap03_Luu_du_lieu.csl
+16:31:45,504 TRACE [L] Copy nap03_Luu_du_lieu.cso
+16:31:45,520 TRACE [L] Copy nap03_Luu_du_lieu.debug
+16:31:45,520 TRACE [L] Copy nap03_Luu_du_lieu.jad
+16:31:45,520 TRACE [L] Copy nap03_Luu_du_lieu.jar
+16:31:45,520 TRACE [L] Copy nap03_Luu_du_lieu.rapc
+16:31:45,645 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:31:45,645 TRACE [A] Leaving PreprocessingBuilder build()
+16:31:45,645 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:31:45,645 TRACE [B] Leaving ResourcesBuilder build()
+16:31:49,895 DEBUG [K] Packaging nap03 Luu_du_lieu
+16:31:49,895 TRACE [L] Project nap03 Luu_du_lieu undeploy from E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:31:49,895 TRACE [L] Erase nap03_Luu_du_lieu.cod
+16:31:49,895 TRACE [L] Erase nap03_Luu_du_lieu.jar
+16:31:49,895 TRACE [L] Erase nap03_Luu_du_lieu.debug
+16:31:49,895 TRACE [L] Erase nap03_Luu_du_lieu.cso
+16:31:49,895 TRACE [L] Erase nap03_Luu_du_lieu.csl
+16:31:49,895 TRACE [L] Project nap03 Luu_du_lieu deploy --> E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:31:49,895 TRACE [L] Copy nap03_Luu_du_lieu.cod
+16:31:49,895 TRACE [L] Copy nap03_Luu_du_lieu.jar
+16:31:49,911 TRACE [L] Copy nap03_Luu_du_lieu.debug
+16:31:49,911 TRACE [L] Copy nap03_Luu_du_lieu.cso
+16:31:49,911 TRACE [L] Copy nap03_Luu_du_lieu.csl
+16:31:49,911 INFO  [K] Simulator launch command:"E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\fledge.exe" /handheld=9900 /app-param=JvmAlxConfigFile:9900.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9900 /app-param=launch=nap03 Luu_du_lieu /app="E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\Jvm.dll" /app-param=DisableRegistration
+16:31:49,911 INFO  [K] Working directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+16:31:49,911 INFO  [K] Launch MDS-CS:false
+16:31:49,911 INFO  [K] MDS-CS directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\MDS
+16:32:03,553 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+16:32:03,553 DEBUG [C] Property change listener is disabled.
+16:32:08,834 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+16:32:08,944 DEBUG [C] Property change listener is enabled.
+16:32:08,991 TRACE [R] ContextManager startingneed update: true
+16:32:08,991 DEBUG [T] Starting Search for CPs
+16:32:09,006 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+16:32:09,006 DEBUG [T] CP named BlackBerry Java SDK version 7.1.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components
+16:32:09,022 DEBUG [B] qualifier: 0
+16:32:09,069 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components]
+16:32:09,085 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+16:32:09,100 DEBUG [K] VM: *ADDED* [1337677399602$C:\Program Files\Java\jdk1.7.0_04]
+16:32:09,100 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.1.0
+16:32:09,100 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+16:32:09,147 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+16:32:30,024 DEBUG [B] qualifier: 19
+16:32:30,133 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:32:30,149 TRACE [A] Leaving PreprocessingBuilder build()
+16:32:30,149 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:32:30,149 TRACE [B] Leaving ResourcesBuilder build()
+16:32:30,164 TRACE [R] loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+16:32:30,274 TRACE [R] finished loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+16:32:59,011 DEBUG [R] RIA Initialization is started for E:/black/bjde/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.7/components.....
+16:32:59,042 DEBUG [R] RIA Initialization finished in : 0 ms
+16:32:59,042 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.1.0
+16:32:59,042 DEBUG [R] RIA Initialization is started for E:/black/bjde/plugins/net.rim.ejde.componentpack7.0.0_7.0.0.33/components.....
+16:33:27,497 DEBUG [R] RIA Initialization finished in : 0 ms
+16:33:27,497 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.0.0
+16:35:02,692 TRACE [C] codeSign-RIM Runtime API (0x52525400) was changed from "false" to "true"
+16:48:46,247 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:48:46,247 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+16:48:46,247 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+16:48:46,247 TRACE [A] Leaving PreprocessingBuilder build()
+16:48:46,247 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:48:46,247 TRACE [B] Leaving ResourcesBuilder build()
+16:48:46,263 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:48:46,325 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+16:53:46,266 TRACE [A] Entering PreprocessingBuilder build();kind=9
+16:53:46,266 TRACE [A] Leaving PreprocessingBuilder build()
+16:53:46,266 TRACE [B] Entering ResourcesBuilder build();kind=9
+16:53:46,266 TRACE [B] Leaving ResourcesBuilder build()
+17:05:18,916 TRACE [A] Entering PreprocessingBuilder build();kind=9
+17:05:18,916 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+17:05:18,916 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+17:05:18,916 TRACE [A] Leaving PreprocessingBuilder build()
+17:05:18,916 TRACE [B] Entering ResourcesBuilder build();kind=9
+17:05:18,916 TRACE [B] Leaving ResourcesBuilder build()
+17:05:18,916 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+17:05:18,932 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+17:10:18,943 TRACE [A] Entering PreprocessingBuilder build();kind=9
+17:10:18,943 TRACE [A] Leaving PreprocessingBuilder build()
+17:10:18,943 TRACE [B] Entering ResourcesBuilder build();kind=9
+17:10:18,943 TRACE [B] Leaving ResourcesBuilder build()
+17:16:02,045 TRACE [A] Entering PreprocessingBuilder build();kind=9
+17:16:02,045 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+17:16:02,045 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+17:16:02,045 TRACE [A] Leaving PreprocessingBuilder build()
+17:16:02,045 TRACE [B] Entering ResourcesBuilder build();kind=9
+17:16:02,045 TRACE [B] Leaving ResourcesBuilder build()
+17:16:02,045 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+17:16:07,092 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+17:16:07,092 DEBUG [C] Property change listener is disabled.
+18:04:16,803 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+18:04:16,928 DEBUG [C] Property change listener is enabled.
+18:04:16,975 TRACE [R] ContextManager startingneed update: true
+18:04:16,975 DEBUG [T] Starting Search for CPs
+18:04:16,975 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+18:04:16,975 DEBUG [T] CP named BlackBerry Java SDK version 7.1.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components
+18:04:16,991 DEBUG [B] qualifier: 0
+18:04:17,053 DEBUG [K] VM: *ADDED* [1337677399602$C:\Program Files\Java\jdk1.7.0_04]
+18:04:17,053 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components]
+18:04:17,085 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+18:04:17,100 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.1.0
+18:04:17,100 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+18:04:17,257 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+18:04:38,008 DEBUG [B] qualifier: 19
+18:04:38,117 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:04:38,133 TRACE [A] Leaving PreprocessingBuilder build()
+18:04:38,133 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:04:38,133 TRACE [B] Leaving ResourcesBuilder build()
+18:04:38,149 TRACE [R] loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+18:04:38,258 TRACE [R] finished loading E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\BlackBerry_App_Descriptor.xml
+18:05:16,635 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:05:16,635 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:05:16,682 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:05:16,682 TRACE [A] Leaving PreprocessingBuilder build()
+18:05:16,682 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:05:16,682 TRACE [B] Leaving ResourcesBuilder build()
+18:05:16,698 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:05:16,698 DEBUG [R] RIA Initialization is started for E:/black/bjde/plugins/net.rim.ejde.componentpack7.1.0_7.1.0.7/components.....
+18:05:16,745 DEBUG [R] RIA Initialization finished in : 0 ms
+18:05:16,745 DEBUG [V] SigningKey cache is populated for vm: BlackBerry JRE 7.1.0
+18:05:30,371 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:05:30,371 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:05:30,371 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:05:30,371 TRACE [A] Leaving PreprocessingBuilder build()
+18:05:30,371 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:05:30,371 TRACE [B] Leaving ResourcesBuilder build()
+18:05:30,371 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:06:22,452 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:06:22,452 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:06:22,452 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:06:22,452 TRACE [A] Leaving PreprocessingBuilder build()
+18:06:22,452 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:06:22,452 TRACE [B] Leaving ResourcesBuilder build()
+18:06:22,452 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:07:25,629 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:07:25,629 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:07:25,629 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:07:25,629 TRACE [A] Leaving PreprocessingBuilder build()
+18:07:25,629 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:07:25,629 TRACE [B] Leaving ResourcesBuilder build()
+18:07:25,629 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:09:09,703 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:09:09,703 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:09:09,703 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:09:09,703 TRACE [A] Leaving PreprocessingBuilder build()
+18:09:09,703 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:09:09,703 TRACE [B] Leaving ResourcesBuilder build()
+18:09:09,703 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:09:19,891 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:09:19,891 TRACE [A] Leaving PreprocessingBuilder build()
+18:09:19,891 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:09:19,891 TRACE [B] Leaving ResourcesBuilder build()
+18:10:32,118 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:10:32,118 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:10:32,118 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:10:32,118 TRACE [A] Leaving PreprocessingBuilder build()
+18:10:32,118 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:10:32,118 TRACE [B] Leaving ResourcesBuilder build()
+18:10:32,118 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:11:13,685 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:11:13,685 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:11:13,685 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:11:13,685 TRACE [A] Leaving PreprocessingBuilder build()
+18:11:13,685 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:11:13,685 TRACE [B] Leaving ResourcesBuilder build()
+18:11:13,685 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:11:13,716 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:11:41,953 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:11:41,953 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:11:41,953 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:11:41,953 TRACE [A] Leaving PreprocessingBuilder build()
+18:11:41,953 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:11:41,953 TRACE [B] Leaving ResourcesBuilder build()
+18:11:41,953 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:14:54,501 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:14:54,501 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:14:54,501 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:14:54,501 TRACE [A] Leaving PreprocessingBuilder build()
+18:14:54,501 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:14:54,501 TRACE [B] Leaving ResourcesBuilder build()
+18:14:54,501 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:14:54,533 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:15:18,160 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:15:18,160 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:15:18,160 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:15:18,160 TRACE [A] Leaving PreprocessingBuilder build()
+18:15:18,160 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:15:18,160 TRACE [B] Leaving ResourcesBuilder build()
+18:15:18,160 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:15:32,255 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:15:32,255 TRACE [A] Leaving PreprocessingBuilder build()
+18:15:32,255 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:15:32,255 TRACE [B] Leaving ResourcesBuilder build()
+18:16:00,726 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:16:00,726 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:16:00,726 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:16:00,726 TRACE [A] Leaving PreprocessingBuilder build()
+18:16:00,726 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:16:00,726 TRACE [B] Leaving ResourcesBuilder build()
+18:16:00,726 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:16:51,980 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:16:51,980 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:16:51,980 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:16:51,980 TRACE [A] Leaving PreprocessingBuilder build()
+18:16:51,980 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:16:51,980 TRACE [B] Leaving ResourcesBuilder build()
+18:16:51,980 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:17:59,376 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:17:59,376 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:17:59,376 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:17:59,376 TRACE [A] Leaving PreprocessingBuilder build()
+18:17:59,376 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:17:59,376 TRACE [B] Leaving ResourcesBuilder build()
+18:17:59,376 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:21:00,779 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:21:00,779 TRACE [A] Leaving PreprocessingBuilder build()
+18:21:00,779 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:21:00,779 TRACE [B] Leaving ResourcesBuilder build()
+18:41:01,981 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:41:01,981 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:41:01,981 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:41:01,981 TRACE [A] Leaving PreprocessingBuilder build()
+18:41:01,981 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:41:01,981 TRACE [B] Leaving ResourcesBuilder build()
+18:41:01,981 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:41:02,013 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:41:29,157 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:41:29,157 TRACE [A] Preprocessing file : E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java
+18:41:29,157 TRACE [A] File DataScreen.java is marked as need to be built by java compiler.
+18:41:29,157 TRACE [A] Leaving PreprocessingBuilder build()
+18:41:29,157 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:41:29,157 TRACE [B] Leaving ResourcesBuilder build()
+18:41:29,157 TRACE [A] Project nap03 Luu_du_lieu is marked as need RAPC.
+18:46:02,010 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:46:02,010 TRACE [A] Leaving PreprocessingBuilder build()
+18:46:02,010 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:46:02,010 TRACE [B] Leaving ResourcesBuilder build()
+18:47:39,362 DEBUG [M] Executing Clean Simulator - Remove Applications forE:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+18:47:39,394 DEBUG [M] Executing Clean Simulator - Remove files from File System forBlackBerry-SDK (9900)
+18:47:39,409 DEBUG [M] Executing Clean Simulator - Remove files from SD Card forBlackBerry-SDK (9900)
+18:47:39,440 DEBUG [M] Executing Clean Simulator - Reset Security Settings forBlackBerry-SDK (9900)
+18:47:42,409 DEBUG [K] Packaging nap03 Luu_du_lieu
+18:47:42,519 TRACE [F] Execute rapc command: E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\bin\rapc.exe -convertpng -quiet codename=deliverables\Standard\7.1.0\nap03_Luu_du_lieu -sourceroot=E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\src;E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\res -import=E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\lib\net_rim_api.jar deliverables\Standard\7.1.0\nap03_Luu_du_lieu.rapc E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu\bin; Working Directory: E:\black\lap-trinh-black-berry\nap03 Luu_du_lieu
+18:47:42,519 TRACE [F] PATH=C:/Program Files/Java/jdk1.7.0_04/bin/../jre/bin/client;C:/Program Files/Java/jdk1.7.0_04/bin/../jre/bin;C:/Program Files/Java/jdk1.7.0_04/bin/../jre/lib/i386;C:\Program Files\Java\jdk1.7.0_04\bin;C:\qip\cli;C:\qip\jre\bin\client;C:\qip\jre\bin;C:\Sybase\DBISQL\bin;C:\Sybase\DataAccess\ADONET\dll;C:\Sybase\DataAccess\ODBC\dll;C:\Sybase\DataAccess\OLEDB\dll;C:\Sybase\UAF-2_5\bin;C:\Sybase\OCS-15_0\lib3p;C:\Sybase\OCS-15_0\dll;C:\Sybase\OCS-15_0\bin;C:\qip;C:\qip\utils;C:\qip\lib;C:\qip\named\bin;C:\Perl\site\bin;C:\Perl\bin;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\strawberry\c\bin;C:\strawberry\perl\site\bin;C:\strawberry\perl\bin;C:\Program Files\TortoiseSVN\bin;D:\vitalqip_build_32\apache-ant-1.8.2\bin;C:\WINDOWS\system32\WindowsPowerShell\v1.0;C:\qip\ldrm\bin;C:\Program Files\TortoiseGit\bin;%APPDATA%\Python\Scripts;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;C:\Program Files\Microsoft Visual Studio\VC98\bin;C:\cygwin\bin;E:\black\bjde;;C:\Program Files\Java\jdk1.7.0_04\bin;C:\Program Files\Java\jdk1.7.0_04\bin\bin
+18:47:45,847 TRACE [A] Project nap03 Luu_du_lieu is marked as not need RAPC.
+18:47:45,894 TRACE [L] Project nap03 Luu_du_lieu undeploy from E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+18:47:45,894 TRACE [L] Project nap03 Luu_du_lieu deploy --> E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+18:47:45,894 TRACE [L] Copy nap03_Luu_du_lieu.cod
+18:47:45,910 TRACE [L] Copy nap03_Luu_du_lieu.jar
+18:47:45,910 TRACE [L] Copy nap03_Luu_du_lieu.debug
+18:47:45,910 TRACE [L] Copy nap03_Luu_du_lieu.cso
+18:47:45,925 TRACE [L] Copy nap03_Luu_du_lieu.csl
+18:47:45,957 TRACE [A] Entering PreprocessingBuilder build();kind=9
+18:47:45,957 TRACE [A] Leaving PreprocessingBuilder build()
+18:47:45,957 TRACE [B] Entering ResourcesBuilder build();kind=9
+18:47:45,957 TRACE [B] Leaving ResourcesBuilder build()
+18:47:46,019 INFO  [K] Simulator launch command:"E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\fledge.exe" /handheld=9900 /app-param=JvmAlxConfigFile:9900.xml /pin=0x2100000A /data-port=0x4d44 /data-port=0x4d4e /session=9900 /app-param=launch=nap03 Luu_du_lieu /app="E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator\Jvm.dll" /app-param=DisableRegistration
+18:47:46,019 INFO  [K] Working directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\simulator
+18:47:46,019 INFO  [K] Launch MDS-CS:false
+18:47:46,019 INFO  [K] MDS-CS directory:E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components\MDS
+18:59:22,526 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+18:59:22,526 DEBUG [C] Property change listener is disabled.

@@ -1,0 +1,62 @@
+package mypackage;
+
+import java.io.IOException;
+import java.util.Hashtable;
+
+import net.rim.device.api.ui.component.DateField;
+
+import net.rim.device.api.system.PersistentObject;
+import net.rim.device.api.system.PersistentStore;
+import net.rim.device.api.ui.component.CheckboxField;
+import net.rim.device.api.ui.component.EditField;
+import net.rim.device.api.ui.component.NumericChoiceField;
+import net.rim.device.api.ui.container.MainScreen;
+
+/**
+ * A class extending the MainScreen class, which provides default standard
+ * behavior for BlackBerry GUI applications.
+ */
+public final class DataScreen extends MainScreen
+{
+    /**
+     * Creates a new MyScreen object
+     */
+	EditField editField;
+	CheckboxField checkboxField;
+	NumericChoiceField numbericChoiceField;
+	DateField dateField;
+	
+	PersistentObject persistentObject;
+	static final long KEY = 0x854e443fe027e690L;
+	Hashtable persistentHastable;
+	
+    public DataScreen()
+    {        
+        // Set the displayed title of the screen       
+        setTitle("Data stored");
+        
+        editField = new EditField("Data stored: ", "");
+        add(editField);
+        
+        checkboxField = new CheckboxField("Boolean data", false);
+        numbericChoiceField = new NumericChoiceField("Numeric: ",1,10,1 );
+        dateField = new DateField("Date:", System.currentTimeMillis(), DateField.DATE);
+        add(checkboxField);
+        add(numbericChoiceField);
+        add(dateField);
+        
+        persistentObject = PersistentStore.getPersistentObject(KEY);
+        
+        if (persistentObject.getContents() != null) {
+			editField.setText((String)persistentObject.getContents());
+		}
+        
+        
+    }// end constructor
+    
+    public void save() throws IOException{
+    	persistentObject.setContents(editField.getText());
+    	persistentObject.commit();		
+	}
+    
+}

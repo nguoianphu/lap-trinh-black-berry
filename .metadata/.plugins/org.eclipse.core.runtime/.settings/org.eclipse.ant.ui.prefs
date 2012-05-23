@@ -1,0 +1,10 @@
+#Tue May 22 16:35:41 GMT+07:00 2012
+problem_tasks=ignore
+problem_properties=ignore
+useQuickDiffPrefPage=true
+useAnnotationsPrefPage=true
+problem_classpath=warning
+problem_imports=warning
+problem_security=warning
+org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+eclipse.preferences.version=1
