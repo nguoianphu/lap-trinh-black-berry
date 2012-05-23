@@ -2,7 +2,7 @@ MIDlet-Name: nap03 Luu_du_lieu
 MIDlet-Version: 1.0.0
 MIDlet-Vendor: BlackBerry Developer hungtuan102
 MIDlet-Jar-URL: nap03 Luu_du_lieu.jar
-MIDlet-Jar-Size: 19029
+MIDlet-Jar-Size: 19558
 MIDlet-Description: Luu du lieu
 MicroEdition-Profile: MIDP-2.0
 MicroEdition-Configuration: CLDC-1.1
@@ -10,8 +10,8 @@ MIDlet-1: Data stored,img/iconvn.png,
 RIM-MIDlet-Flags-1: 0
 Manifest-Version: 1.0
 RIM-COD-URL: nap03_Luu_du_lieu.cod
-RIM-COD-Size: 15708
-RIM-COD-Creation-Time: 1337687262
+RIM-COD-Size: 15904
+RIM-COD-Creation-Time: 1337763771
 RIM-COD-Module-Name: nap03_Luu_du_lieu
 RIM-COD-Module-Dependencies: net_rim_cldc
-RIM-COD-SHA1: a9 be 4e a4 a3 08 9a 23 18 64 94 d6 b3 7e 38 9f f7 41 53 96
+RIM-COD-SHA1: cc 06 e0 1f 93 46 0e d4 c5 80 10 29 52 88 eb 48 3f 4c e7 6d

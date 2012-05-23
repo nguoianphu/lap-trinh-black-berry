@@ -1,8 +1,6 @@
 package mypackage;
 
 import java.io.IOException;
-import java.util.Hashtable;
-
 import net.rim.device.api.ui.component.DateField;
 
 import net.rim.device.api.system.PersistentObject;
@@ -28,18 +26,18 @@ public final class DataScreen extends MainScreen
 	
 	PersistentObject persistentObject;
 	static final long KEY = 0x854e443fe027e690L;
-	Hashtable persistentHashtable;
+	CustomHashtable persistentHashtable;
 	
     public DataScreen()
     {        
         // Set the displayed title of the screen       
         setTitle("Data stored");
         
-//        editField = new EditField("Data stored: ", "");
-//        add(editField);
+        editField = new EditField("Data stored: ", "");
+        add(editField);
         
         checkboxField = new CheckboxField("Boolean data", false);
-        numericChoiceField = new NumericChoiceField("Numeric: ",1,10,1 );
+        numericChoiceField = new NumericChoiceField("Numeric: ", 1, 5, 1 );
         dateField = new DateField("Date:", System.currentTimeMillis(), DateField.DATE);
         add(checkboxField);
         add(numericChoiceField);
@@ -48,11 +46,11 @@ public final class DataScreen extends MainScreen
         persistentObject = PersistentStore.getPersistentObject(KEY);
         
         if (persistentObject.getContents() == null) {
-			persistentHashtable = new Hashtable();
+			persistentHashtable = new CustomHashtable();
 			persistentObject.setContents(persistentHashtable);
 		}
         else {
-			persistentHashtable = (Hashtable)persistentObject.getContents();
+			persistentHashtable = (CustomHashtable)persistentObject.getContents();
 		}
         
         if (persistentHashtable.containsKey("EditData")) { 
@@ -76,8 +74,7 @@ public final class DataScreen extends MainScreen
     public void save() throws IOException { 
         persistentHashtable.put("EditData", editField.getText()); 
         persistentHashtable.put("BoolData", new Boolean(checkboxField.getChecked())); 
-        persistentHashtable.put("IntData", new     
-Integer(numericChoiceField.getSelectedValue())); 
+        persistentHashtable.put("IntData", new Integer(numericChoiceField.getSelectedValue())); 
         persistentHashtable.put("Date", new Long(dateField.getDate())); 
         persistentObject.commit(); 
     } 

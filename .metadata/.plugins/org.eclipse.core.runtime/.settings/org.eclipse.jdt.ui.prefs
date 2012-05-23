@@ -1,18 +1,20 @@
-#Tue May 22 18:59:21 GMT+07:00 2012
-useQuickDiffPrefPage=true
-org.eclipse.jdt.ui.text.templates_migrated=true
-proposalOrderMigrated=true
-tabWidthPropagated=true
-content_assist_proposals_background=255,255,255
-org.eclipse.jdt.ui.javadoclocations.migrated=true
-useAnnotationsPrefPage=true
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="net.rim.device.api.ui.Field"><rhs name\="net.rim.device.api.ui.component.CheckboxField"/><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="net.rim.device.api.ui.component.CheckboxField"><rhs name\="net.rim.device.api.ui.component.CheckboxField"/></lhs><lhs name\="net.rim.device.api.ui.component.ChoiceField"><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="net.rim.device.api.ui.component.NumericChoiceField"><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="javax.microedition.lcdui.Item"><rhs name\="javax.microedition.lcdui.DateField"/></lhs><lhs name\="javax.microedition.lcdui.DateField"><rhs name\="javax.microedition.lcdui.DateField"/></lhs><lhs name\="java.util.Hashtable"><rhs name\="java.util.Hashtable"/></lhs></history>
-org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
-org.eclipse.jdt.ui.editor.tab.width=
-org.eclipse.jdt.ui.formatterprofiles.version=11
-org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
-content_assist_number_of_computers=14
-spelling_locale_initialized=true
-eclipse.preferences.version=1
+#Wed May 23 15:55:39 GMT+07:00 2012
 content_assist_proposals_foreground=0,0,0
+spelling_locale_initialized=true
+org.eclipse.jdt.ui.text.templates_migrated=true
+useAnnotationsPrefPage=true
+eclipse.preferences.version=1
+org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
+tabWidthPropagated=true
+org.eclipse.jdt.ui.editor.tab.width=
 fontPropagated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.javadoclocations.migrated=true
+proposalOrderMigrated=true
+org.eclipse.jdt.ui.formatterprofiles.version=11
+content_assist_proposals_background=255,255,255
+content_assist_number_of_computers=14
+useQuickDiffPrefPage=true
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="net.rim.device.api.ui.Field"><rhs name\="net.rim.device.api.ui.component.CheckboxField"/><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="net.rim.device.api.ui.component.CheckboxField"><rhs name\="net.rim.device.api.ui.component.CheckboxField"/></lhs><lhs name\="net.rim.device.api.ui.component.ChoiceField"><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="net.rim.device.api.ui.component.NumericChoiceField"><rhs name\="net.rim.device.api.ui.component.NumericChoiceField"/></lhs><lhs name\="javax.microedition.lcdui.Item"><rhs name\="javax.microedition.lcdui.DateField"/></lhs><lhs name\="javax.microedition.lcdui.DateField"><rhs name\="javax.microedition.lcdui.DateField"/></lhs><lhs name\="java.util.Hashtable"><rhs name\="java.util.Hashtable"/></lhs></history>
+org.eclipse.jdt.ui.text.code_templates_migrated=true

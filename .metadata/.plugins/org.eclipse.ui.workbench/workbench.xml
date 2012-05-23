@@ -18,7 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -28,21 +28,10 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataApp.java" partName="DataApp.java" path="E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataApp.java" title="DataApp.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataApp.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nap03 Luu_du_lieu/src/mypackage/DataApp.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="396" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataScreen.java" partName="DataScreen.java" path="E:/black/lap-trinh-black-berry/nap03 Luu_du_lieu/src/mypackage/DataScreen.java" title="DataScreen.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataScreen.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2006" selectionTopPixel="867"/>
-</editor>
 </editors>
 <views>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History"/>
@@ -63,6 +52,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
 <columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
@@ -108,7 +98,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="net.rim.ejde.ui.perspective.BlackBerryPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="net.rim.ejde.ui.perspective.BlackBerryPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="org.eclipse.jst.j2ee.J2EEPerspective" id="&lt;Java_EE&gt;" label="&lt;Java EE&gt;"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -284,7 +274,7 @@
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.2072498" ratioLeft="263" ratioRight="1006" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7695962" ratioLeft="648" ratioRight="194" relationship="4" relative="org.eclipse.ui.editorss">
+<info folder="true" part="bottom" ratio="0.8456057" ratioLeft="712" ratioRight="130" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
@@ -453,146 +443,18 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory>
-<editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nap03 Luu_du_lieu/src/mypackage/DataApp.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
-</editors>
-<item historyLabel="DataApp.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="502" y="23"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="529" y="16"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="581" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="529" y="16"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="754" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="613" y="0"/>
-</item>
-<item historyLabel="DataApp.java" index="0">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="600" y="0"/>
-</item>
-<item historyLabel="DataApp.java" index="0">
-<position info="not_deleted" x="396" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="600" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="529" y="16"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="711" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1113" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1160" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1243" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1268" y="66"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1367" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1431" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="935" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1733" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1822" y="0"/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position/>
-</item>
-<item historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="1452" y="0"/>
-</item>
-<item active="true" historyLabel="DataScreen.java" index="1">
-<position info="not_deleted" x="2816" y="0"/>
-</item>
-</navigationHistory>
+<navigationHistory/>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="left"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="right"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -600,10 +462,14 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomHashtable.java" tooltip="nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java">
+<persistable path="/nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataScreen.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataScreen.java">
 <persistable path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
 </file>
