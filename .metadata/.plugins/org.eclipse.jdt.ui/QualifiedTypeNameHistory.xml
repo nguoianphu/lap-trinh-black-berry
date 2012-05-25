@@ -17,4 +17,9 @@
 <fullyQualifiedTypeName name="java.util.Enumeration"/>
 <fullyQualifiedTypeName name="java.util.Vector"/>
 <fullyQualifiedTypeName name="net.rim.device.api.util.StringProvider"/>
+<fullyQualifiedTypeName name="javax.microedition.lcdui.Display"/>
+<fullyQualifiedTypeName name="net.rim.device.api.math.Fixed32"/>
+<fullyQualifiedTypeName name="net.rim.device.api.system.EncodedImage"/>
+<fullyQualifiedTypeName name="net.rim.device.api.system.Bitmap"/>
+<fullyQualifiedTypeName name="net.rim.device.api.system.Display"/>
 </qualifiedTypeNameHistroy>

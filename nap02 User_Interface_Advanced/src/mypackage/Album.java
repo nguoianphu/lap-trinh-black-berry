@@ -1,5 +1,6 @@
 package mypackage;
 
+import net.rim.device.api.system.Display;
 import net.rim.device.api.system.Bitmap;
 import net.rim.device.api.ui.Color;
 import net.rim.device.api.ui.TouchEvent;
@@ -8,7 +9,10 @@ import net.rim.device.api.ui.container.MainScreen;
 import net.rim.device.api.ui.extension.component.PictureScrollField;
 import net.rim.device.api.ui.extension.component.PictureScrollField.ScrollEntry;
 
-public class Album extends MainScreen{
+public class Album extends MainScreen {
+	
+	private int displayWidth = Display.getWidth();
+	private int displayHeight = Display.getHeight();
 	
 	public Album(){
 		
@@ -60,7 +64,7 @@ public class Album extends MainScreen{
 	private class PictureScroll extends PictureScrollField {
 		private final ScrollEntry[] _entries;
 		PictureScroll(ScrollEntry[] entries) {
-			super(150,175);
+			super(displayWidth/2,displayHeight/2);
 			_entries = entries;
 			this.setData(entries, 0);
 			this.setHighlightStyle(HighlightStyle.ILLUMINATE_WITH_SHRINK_LENS);
@@ -81,10 +85,9 @@ public class Album extends MainScreen{
 	}
 
 	private Bitmap resizeImage(Bitmap bm) {
-    	Bitmap resizeBm = new Bitmap(150,175);
+    	Bitmap resizeBm = new Bitmap(displayWidth/2,displayHeight/2);
         bm.scaleInto(resizeBm,Bitmap.FILTER_BILINEAR);
     	return resizeBm;
     }
-
 	
-}
+}// end class
