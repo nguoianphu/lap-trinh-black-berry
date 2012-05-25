@@ -1,9 +1,10 @@
-#Tue May 22 16:35:02 GMT+07:00 2012
-eclipse.preferences.version=1
-cleanSimulator-BlackBerry\ JRE\ 7.1.0-ERASE_REMOVABLE_MEMORY=true
+#Thu May 24 18:04:41 GMT+07:00 2012
 cleanSimulator-BlackBerry\ JRE\ 7.1.0-CLEAN_SIMULATOR_DIRECTORY=true
-cleanSimulator-BlackBerry\ JRE\ 7.1.0-ERASE_NON_VOLATILE_MEMORY=true
-openStartupOnEclpseFirstStart=false
-cleanSimulator-BlackBerry\ JRE\ 7.1.0-SDK=true
-codeSign-RIM\ Runtime\ API\ (0x52525400)=true
 cleanSimulator-BlackBerry\ JRE\ 7.1.0-ERASE_FILE_SYSTEM=true
+cleanSimulator-BlackBerry\ JRE\ 7.1.0-ERASE_NON_VOLATILE_MEMORY=true
+openStartupOnNew=false
+cleanSimulator-BlackBerry\ JRE\ 7.1.0-SDK=true
+openStartupOnEclpseFirstStart=false
+codeSign-RIM\ Runtime\ API\ (0x52525400)=true
+cleanSimulator-BlackBerry\ JRE\ 7.1.0-ERASE_REMOVABLE_MEMORY=true
+eclipse.preferences.version=1

@@ -18,7 +18,7 @@
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.ui.browser.editor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
@@ -28,10 +28,16 @@
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
 <folder appearance="1" expanded="2">
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileConnectionScreen.java" partName="FileConnectionScreen.java" path="E:/black/lap-trinh-black-berry/FileConnection/src/mypackage/FileConnectionScreen.java" title="FileConnectionScreen.java" tooltip="FileConnection/src/mypackage/FileConnectionScreen.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/FileConnection/src/mypackage/FileConnectionScreen.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1438" selectionTopPixel="489"/>
+</editor>
 </editors>
 <views>
 <view id="org.eclipse.team.ui.GenericHistoryView" partName="History"/>
@@ -52,6 +58,7 @@
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
+<category IMemento.internal.id="Errors (1 item)"/>
 <category IMemento.internal.id="Warnings"/>
 <category IMemento.internal.id="Errors"/>
 </expanded>
@@ -98,7 +105,7 @@
 <view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="net.rim.ejde.ui.perspective.BlackBerryPerspective">
+<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="net.rim.ejde.ui.perspective.BlackBerryPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor descriptor="org.eclipse.jst.j2ee.J2EEPerspective" id="&lt;Java_EE&gt;" label="&lt;Java EE&gt;"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
@@ -443,18 +450,166 @@
 </perspective>
 </perspectives>
 <workingSets/>
-<navigationHistory/>
+<navigationHistory>
+<editors>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.rim.ejde.BlackBerryProjectFormEditor" path="/FileConnection/BlackBerry_App_Descriptor.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FileConnection/src/mypackage/FileConnectionApp.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FileConnection/src/mypackage/FileConnectionScreen.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.rim.ejde.BlackBerryProjectFormEditor" path="/FileConnection/BlackBerry_App_Descriptor.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/FileConnection/src/mypackage/FileConnectionApp.java"/>
+</editors>
+<item historyLabel="CustomHashtable.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DataScreen.java" index="1">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="CustomHashtable.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="DataScreen.java" index="1">
+<position info="not_deleted" x="979" y="0"/>
+</item>
+<item historyLabel="FileConnection" index="2"/>
+<item historyLabel="FileConnectionApp.java" index="3">
+<position info="not_deleted" x="507" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="490" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="413" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="417" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="454" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="675" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="708" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="748" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="847" y="4"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="918" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1074" y="0"/>
+</item>
+<item historyLabel="FileConnection" index="5"/>
+<item historyLabel="FileConnectionApp.java" index="6">
+<position info="not_deleted" x="660" y="0"/>
+</item>
+<item historyLabel="FileConnection" index="5"/>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="0" y="2011"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1147" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1158" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1225" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1254" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1298" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1443" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1475" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1520" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1624" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="149" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1641" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1760" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1813" y="0"/>
+</item>
+<item historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1890" y="0"/>
+</item>
+<item active="true" historyLabel="FileConnectionScreen.java" index="4">
+<position info="not_deleted" x="1922" y="0"/>
+</item>
+</navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-</trimArea>
-<trimArea IMemento.internal.id="131072">
-<trimItem IMemento.internal.id="right"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -462,16 +617,24 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottom"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomHashtable.java" tooltip="nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java">
-<persistable path="/nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileConnectionScreen.java" tooltip="FileConnection/src/mypackage/FileConnectionScreen.java">
+<persistable path="/FileConnection/src/mypackage/FileConnectionScreen.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileConnectionApp.java" tooltip="FileConnection/src/mypackage/FileConnectionApp.java">
+<persistable path="/FileConnection/src/mypackage/FileConnectionApp.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.rim.ejde.BlackBerryProjectFormEditor" name="BlackBerry_App_Descriptor.xml" tooltip="FileConnection/BlackBerry_App_Descriptor.xml">
+<persistable path="/FileConnection/BlackBerry_App_Descriptor.xml"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataScreen.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataScreen.java">
 <persistable path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomHashtable.java" tooltip="nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java">
+<persistable path="/nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataApp.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataApp.java">
 <persistable path="/nap03 Luu_du_lieu/src/mypackage/DataApp.java"/>

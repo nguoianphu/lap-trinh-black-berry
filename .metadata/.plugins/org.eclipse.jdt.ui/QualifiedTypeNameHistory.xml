@@ -7,4 +7,14 @@
 <fullyQualifiedTypeName name="javax.microedition.lcdui.DateField"/>
 <fullyQualifiedTypeName name="java.util.Hashtable"/>
 <fullyQualifiedTypeName name="net.rim.device.api.util.Persistable"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.component.ObjectListField"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.component.Menu"/>
+<fullyQualifiedTypeName name="net.rim.device.api.ui.MenuItem"/>
+<fullyQualifiedTypeName name="net.rim.device.api.crypto.PublicKey"/>
+<fullyQualifiedTypeName name="mypackage.FileConnectionApp"/>
+<fullyQualifiedTypeName name="javax.microedition.io.Connector"/>
+<fullyQualifiedTypeName name="javax.microedition.io.file.FileConnection"/>
+<fullyQualifiedTypeName name="java.util.Enumeration"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="net.rim.device.api.util.StringProvider"/>
 </qualifiedTypeNameHistroy>
