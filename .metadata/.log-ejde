@@ -1398,3 +1398,49 @@
 17:16:58,300 TRACE [B] Leaving ResourcesBuilder build()
 17:21:18,828 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
 17:21:18,859 DEBUG [C] Property change listener is disabled.
+16:26:19,949 TRACE [R] ContextManager starting, bundle version: 1.5.0.201112201607
+16:26:20,090 DEBUG [C] Property change listener is enabled.
+16:26:20,715 TRACE [R] ContextManager startingneed update: true
+16:26:20,746 DEBUG [T] Starting Search for CPs
+16:26:20,855 DEBUG [T] CP named BlackBerry Java SDK version 7.0.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components
+16:26:20,996 DEBUG [T] CP named BlackBerry Java SDK version 7.1.0 was found at E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components
+16:26:21,199 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.1.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.1.0_7.1.0.7\components]
+16:26:21,355 DEBUG [B] qualifier: 0
+16:26:21,402 DEBUG [K] VM: *ADDED* [BlackBerry JRE 7.0.0$E:\black\bjde\plugins\net.rim.ejde.componentpack7.0.0_7.0.0.33\components]
+16:26:21,434 DEBUG [K] VM: *ADDED* [1337677399602$C:\Program Files\Java\jdk1.7.0_04]
+16:26:21,449 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.1.0
+16:26:21,527 TRACE [V] Attempting to create VM with name - BlackBerry JRE 7.0.0
+16:26:21,809 DEBUG [I] Bundle [net.rim.ejde] is changing state to Started.
+16:26:43,122 DEBUG [B] qualifier: 19
+16:27:23,998 TRACE [R] loading E:\black\lap-trinh-black-berry\nap02 User_Interface_Advanced\BlackBerry_App_Descriptor.xml
+16:27:24,170 TRACE [R] finished loading E:\black\lap-trinh-black-berry\nap02 User_Interface_Advanced\BlackBerry_App_Descriptor.xml
+16:27:24,311 TRACE [d] ****** Get resource for nap02 User_Interface_Advanced
+16:27:24,327 TRACE [d] ****** Get resource for nap02 User_Interface_Advanced
+16:27:24,327 DEBUG [C] Validating project nap02 User_Interface_Advanced
+16:27:24,327 TRACE [d] ****** Get resource for nap02 User_Interface_Advanced
+16:46:32,021 DEBUG [E] Error removing BB properties from Cache on project <FileConnection> deletion
+org.eclipse.core.internal.resources.ResourceException: Resource '/FileConnection' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:137)
+	at org.eclipse.core.internal.resources.Project.hasNature(Project.java:511)
+	at net.rim.ejde.internal.E.E.resourceChanged(RIMEIDE:1135)
+	at org.eclipse.core.internal.events.NotificationManager$2.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:261)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:321)
+	at org.eclipse.core.internal.resources.Resource.broadcastPreDeleteEvent(Resource.java:1993)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:771)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:331)
+	at org.eclipse.ltk.core.refactoring.resource.DeleteResourceChange.perform(DeleteResourceChange.java:130)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:278)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:258)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:306)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:92)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:218)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:1975)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:87)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+16:48:10,508 DEBUG [I] Bundle [net.rim.ejde] is changing state to Stopping.
+16:48:10,508 DEBUG [C] Property change listener is disabled.
