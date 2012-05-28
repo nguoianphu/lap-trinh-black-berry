@@ -272,7 +272,7 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.2072498" ratioLeft="263" ratioRight="1006" relationship="2" relative="left"/>
+<info part="org.eclipse.ui.editorss" ratio="0.20488574" ratioLeft="260" ratioRight="1009" relationship="2" relative="left"/>
 <info folder="true" part="bottom" ratio="0.8456057" ratioLeft="712" ratioRight="130" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
@@ -471,14 +471,8 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="net.rim.ejde.BlackBerryProjectFormEditor" name="BlackBerry_App_Descriptor.xml" tooltip="FileConnection/BlackBerry_App_Descriptor.xml">
 <persistable path="/FileConnection/BlackBerry_App_Descriptor.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataScreen.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataScreen.java">
-<persistable path="/nap03 Luu_du_lieu/src/mypackage/DataScreen.java"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CustomHashtable.java" tooltip="nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java">
 <persistable path="/nap03 Luu_du_lieu/src/mypackage/CustomHashtable.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="DataApp.java" tooltip="nap03 Luu_du_lieu/src/mypackage/DataApp.java">
-<persistable path="/nap03 Luu_du_lieu/src/mypackage/DataApp.java"/>
 </file>
 </mruList>
 </workbench>
