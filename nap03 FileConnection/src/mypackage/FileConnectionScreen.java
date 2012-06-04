@@ -77,4 +77,9 @@ public final class FileConnectionScreen extends MainScreen
 			// TODO: handle exception
 		}
     }
+    
+    private void copy(){
+    	
+    }
+    
 }
