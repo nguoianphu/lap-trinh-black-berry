@@ -2,7 +2,7 @@ MIDlet-Name: nap03 FileConnection
 MIDlet-Version: 1.0.0
 MIDlet-Vendor: BlackBerry Developer
 MIDlet-Jar-URL: nap03 FileConnection.jar
-MIDlet-Jar-Size: 20890
+MIDlet-Jar-Size: 20909
 MIDlet-Description: File Connection
 MicroEdition-Profile: MIDP-2.0
 MicroEdition-Configuration: CLDC-1.1
@@ -11,7 +11,7 @@ RIM-MIDlet-Flags-1: 0
 Manifest-Version: 1.0
 RIM-COD-URL: FileConnection.cod
 RIM-COD-Size: 16168
-RIM-COD-Creation-Time: 1338294281
+RIM-COD-Creation-Time: 1338981441
 RIM-COD-Module-Name: FileConnection
 RIM-COD-Module-Dependencies: net_rim_cldc
-RIM-COD-SHA1: 35 16 87 2c 52 a7 21 69 e5 04 49 85 38 04 40 b5 e4 26 6f 32
+RIM-COD-SHA1: bf a6 4d fe 70 c8 35 58 64 81 f3 bd 88 6a 70 0a ed a5 8a 87
